@@ -9,13 +9,13 @@ function attendance1(){
 }
 
 function attendance2(){
-    Cookies.set("second", "second2");
+    Cookies.set("first", "second2");
     window.open("selection.html");
 
 }
 
 function attendance3(){
-    Cookies.set("third", "third3");
+    Cookies.set("first", "third3");
     window.open("selection.html");
 
 }

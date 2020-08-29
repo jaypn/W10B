@@ -3,12 +3,12 @@ var attendance = Cookies.get("first");
 if (attendance=="first1"){
 
 
-var first1 = document.getElementById("attendance");
-first1.innerHTML += "<p> yes I will make it! </p>";
+var first = document.getElementById("attendance");
+first.innerHTML += "<p> yes I will make it! </p>";
 }
 
 
-var attendance = Cookies.get("second");
+var attendance = Cookies.get("first");
 if(attendance=="second2"){
 
     var second = document.getElementById("attendance");
@@ -16,7 +16,7 @@ if(attendance=="second2"){
 
 } 
 
-var attendance = Cookies.get("third");
+var attendance = Cookies.get("first");
 if(attendance=="third3"){
 
     var third = document.getElementById("attendance");
